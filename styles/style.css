@@ -100,7 +100,7 @@ body {
 .btn:link,
 .btn:visited {
   background-color: var(--color-neutral-very-light-gray);
-  border: .125rem solid hsl(0, 0%, 100%);
+  border: .125rem solid var(--color-neutral-very-light-gray);
   font-size: 15px;
   display: inline-block;
   padding: 12px 31.5008px;
@@ -149,7 +149,7 @@ body {
   }
 
   .card {
-    min-height: 442px;
+    min-height: 27.625rem;
   }
 
   .card__description {
