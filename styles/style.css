@@ -61,7 +61,6 @@ body {
 .card__description {
   color: #fff;
   flex-grow: 1;
-  /* margin-bottom: 5.1875rem; */
 }
 
 .card--orange.card--corner {
