@@ -5,31 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | 3-column preview card component</title>
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <main class="wrapper">
-    <div class="container">
-      <article class="card card--sedan rounded">
-        <img src="/assets/images/icon-sedans.svg" alt="Sedan Icon" class="card__img" width="64" height="40">
-        <h2 class="card__heading">Sedans</h2>
+    <article class="card card__theme--sedan">
+      <img src="/assets/images/icon-sedans.svg" alt="Sedan Icon" class="card__icon" width="64" height="40">
+      <div class="card__body">
+        <h2 class="card__headline">Sedans</h2>
         <p class="card__description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
         <a href="#" target="_blank" class="btn btn--sedan">Learn more</a>
-      </article>
-      <article class="card card--suvs">
-        <img src="/assets/images/icon-suvs.svg" alt="SUV Icon" class="card__img" width="64" height="40">
-        <h2 class="card__heading">SUVs</h2>
+      </div>
+    </article>
+
+    <article class="card card__theme--suvs">
+      <img src="/assets/images/icon-suvs.svg" alt="SUV Icon" class="card__icon" width="64" height="40">
+      <div class="card__body">
+        <h2 class="card__headline">SUVs</h2>
         <p class="card__description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
         <a href="#" target="_blank" class="btn btn--suvs">Learn more</a>
-      </article>
-      <article class="card card--luxury rounded">
-        <img src="/assets/images/icon-luxury.svg" alt="Luxury Vehicle Icon" class="card__img" width="64" height="40">
-        <h2 class="card__heading">Luxury</h2>
+      </div>
+    </article>
+
+    <article class="card card__theme--luxury">
+      <img src="/assets/images/icon-luxury.svg" alt="Luxury Vehicle Icon" class="card__icon" width="64" height="40">
+      <div class="card__body">
+        <h2 class="card__headline">Luxury</h2>
         <p class="card__description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
         <a href="#" target="_blank" class="btn btn--luxury">Learn more</a>
-      </article>
-    </div>
+      </div>
+    </article>
   </main>
 </body>
 </html>
